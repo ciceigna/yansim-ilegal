@@ -1,0 +1,31 @@
+html: 
+
+css:
+
+
+
+.topnav {
+    background-color:#ee63bb;
+    overflow:hidden;
+    height: 55px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+a.active {
+    padding: 0px 5px;
+}
+
+.topnav-right {
+  float: right;
+}

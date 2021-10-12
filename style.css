@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0;
+}
+    
+a { 
+    color: white; 
+    text-decoration: none; 
+} 
+
+a:hover { 
+    text-decoration: underline;
+} 
+
+body {
+    font-family: myFirstFont;
+    text-align: center;
+    color: honeydew;
+    background-color: hotpink;
+    font-size: 30px;
+}
+
+header {
+    text-shadow: 0 0 10px #fff, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
+    margin: 0px;
+    padding: 0px;  
+    }
+
+.nnaavv {
+    padding: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.icon {
+    padding-top: 15px;
+    margin-left: 15px;
+    position:fixed;
+}
+
+.links {
+    padding-top: 15px;
+    margin-right: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+section.intro {
+    text-shadow: 0px 5px 5px rgb(43, 42, 42);
+}
+
+section.tree {
+    background-image: url(tree.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border: 0px;
+}
+
+.trailer {
+    margin-top: 25px;
+}
+
+
+section.school {
+    background-image: url(school-front.png);
+    background-repeat: no-repeat;
+    text-shadow: 0 0 10px #fff, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
+    background-size: 150%;
+    background-position: center;
+    border: 0px;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 5px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    max-width: 900px;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(255, 105, 180, 0.486);
+}
+
+section.more {
+    background-image: url(video-poster.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border: 0px;
+    text-shadow: 0 0 10px #fff, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
+}
+
+.yansim {
+    padding: 25px 0px;
+}
+
+.foota {
+    font-size: 25px;
+}
