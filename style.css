@@ -96,8 +96,20 @@ section.school {
     max-width: 900px;
     font-size: 24px;
     text-align: center;
-    background-color: rgba(255, 105, 180, 0.486);
+    background-color: rgba(90, 81, 85, 0.486);
 }
+
+    .div1 { text-align: center;
+        grid-area: 1 / 1 / 2 / 2; }
+    .div2 { text-align: center; grid-area: 1 / 2 / 2 / 3; }
+    .div3 {text-align: center; grid-area: 1 / 3 / 2 / 4; }
+    .div4 {text-align: center; grid-area: 1 / 4 / 2 / 5; }
+    .div5 {text-align: center; grid-area: 1 / 5 / 2 / 6; }
+    .div6 {text-align: center; grid-area: 2 / 1 / 3 / 2; }
+    .div7 {text-align: center; grid-area: 2 / 2 / 3 / 3; }
+    .div8 {text-align: center; grid-area: 2 / 3 / 3 / 4; }
+    .div9 {text-align: center; grid-area: 2 / 4 / 3 / 5; }
+    .div10 {text-align: center; grid-area: 2 / 5 / 3 / 6; }
 
 section.more {
     background-image: url(video-poster.jpg);
@@ -114,4 +126,25 @@ section.more {
 
 .foota {
     font-size: 25px;
+}
+
+@media (max-width: 992px) { /*dispositivos medianos*/
+    .table {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+        .div3 { grid-area: 2 / 1 / 3 / 2; }
+        .div4 { grid-area: 2 / 2 / 3 / 3; }
+        .div5 { grid-area: 3 / 1 / 4 / 2; }
+        .div6 { grid-area: 3 / 2 / 4 / 3; }
+        .div7 { grid-area: 4 / 1 / 5 / 2; }
+        .div8 { grid-area: 4 / 2 / 5 / 3; }
+        .div9 { grid-area: 5 / 1 / 6 / 2; }
+        .div10 { grid-area: 5 / 2 / 6 / 3; }
 }
