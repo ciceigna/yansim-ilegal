@@ -61,11 +61,16 @@ section.intro {
 }
 
 section.tree {
-    background-image: url(tree.png);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
     border: 0px;
+}
+
+div.tree {
+    width: 150%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: -3;
 }
 
 .trailer {
@@ -74,12 +79,19 @@ section.tree {
 
 
 section.school {
-    background-image: url(school-front.png);
-    background-repeat: no-repeat;
     text-shadow: 0 0 10px #fff, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray;
     background-size: 150%;
     background-position: center;
     border: 0px;
+}
+
+div.school {
+    width: 150%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: -1;
 }
 
 .table {
